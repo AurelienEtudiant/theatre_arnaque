@@ -1,0 +1,34 @@
+============================================================
+🎭 TRANSCRIPTION - LE THÉÂTRE DE L'ARNAQUE
+📅 Date: 2026-02-11 17:05
+🎬 Scénario: tech_support
+📊 Nombre de tours: 8
+============================================================
+
+ARNAQUEUR:
+  technicien orange
+
+JEANNE:
+  Oh... Excusez-moi, je n'ai pas bien compris... Vous pouvez répéter ?
+
+ARNAQUEUR:
+  technicien orange
+
+JEANNE:
+  Oh... Excusez-moi, je n'ai pas bien compris... Vous pouvez répéter ?
+
+ARNAQUEUR:
+  jean dumoulin technicien orange
+
+JEANNE:
+  Oh... Excusez-moi, je n'ai pas bien compris... Vous pouvez répéter ?
+
+ARNAQUEUR:
+  jean dumoulin
+
+JEANNE:
+  Oh... Excusez-moi, je n'ai pas bien compris... Vous pouvez répéter ?
+
+============================================================
+FIN DE LA TRANSCRIPTION
+============================================================
