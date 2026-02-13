@@ -64,8 +64,8 @@ Le système utilise **plusieurs agents LLM** orchestrés via **LangChain** pour 
 
 ```bash
 # 1. Cloner le repository
-git clone https://github.com/votre-username/theatre-arnaque.git
-cd theatre-arnaque
+git clone https://github.com/votre-username/theatre_arnaque.git
+cd theatre_arnaque
 
 # 2. Créer un environnement virtuel
 python3 -m venv venv

@@ -1,33 +1,10 @@
-"""
-Configuration globale du projet "Le Théâtre de l'Arnaque"
-=========================================================
-
-Ce module gère toutes les configurations du système :
-- Chargement des variables d'environnement
-- Configuration des modèles LLM
-- Paramètres de la simulation
-
-SÉCURITÉ : Les clés API sont chargées depuis le fichier .env
-           qui n'est JAMAIS commité (voir .gitignore)
-"""
-
 import os
 from dotenv import load_dotenv
 from pathlib import Path
 from typing import Optional
 
-# ================================================
-# CHARGEMENT DES VARIABLES D'ENVIRONNEMENT
-# ================================================
-# On charge le fichier .env situé à la racine du projet
-# Ce fichier contient les clés API sensibles
-
 env_path = Path(__file__).parent / ".env"
 load_dotenv(env_path)
-
-# ================================================
-# CONFIGURATION DES MODÈLES LLM
-# ================================================
 
 class LLMConfig:
     """
@@ -224,12 +201,6 @@ def get_llm(model: Optional[str] = None, temperature: float = 0.7):
     else:
         raise ValueError(f"Provider LLM non supporté: {provider}. Utilisez 'openai' ou 'gemini'.")
 
-
-# ================================================
-# EXPORT DES CONFIGURATIONS
-# ================================================
-
-# Ces variables sont importables directement depuis config
 llm_config = LLMConfig()
 simulation_config = SimulationConfig()
 scenario_config = ScenarioConfig()
